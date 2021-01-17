@@ -22,10 +22,16 @@ export default function Home({ allPostsData }) {
         <title>{siteTitle}</title>
       </Head>
       <section className={utilStyles.headingMd}>
-        <p>Hi</p>
         <p>
-          (This is a sample website - you’ll be building a site like this on{" "}
-          <a href="https://nextjs.org/learn">our Next.js tutorial</a>.)
+          Hi, stranger, welcome to my personal website! I am a Physicist,
+          Software Engineer and Entrepreneur base in Toronto, Canada.
+        </p>
+        <p>
+          I'm passionate about Theoretical Physics, Cosmology, Logic, Machine
+          Learning (especially Reinforcement Learning), Philosophy,
+          Computational Complexity Theory, video games (God of War, Dota, WOW,
+          Warzone), Spontaneous Adventures (long-distance biking, solo
+          traveling), playing electrical guitar, Kanye West's music.
         </p>
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
